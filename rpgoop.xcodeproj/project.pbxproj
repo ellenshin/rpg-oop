@@ -12,6 +12,11 @@
 		3383B2641CE456FF003504F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383B2621CE456FF003504F8 /* Main.storyboard */; };
 		3383B2661CE456FF003504F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3383B2651CE456FF003504F8 /* Assets.xcassets */; };
 		3383B2691CE456FF003504F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3383B2671CE456FF003504F8 /* LaunchScreen.storyboard */; };
+		3383B2711CE457EF003504F8 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B2701CE457EF003504F8 /* Character.swift */; };
+		3383B2731CE45935003504F8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B2721CE45935003504F8 /* Player.swift */; };
+		3383B2751CE50051003504F8 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B2741CE50051003504F8 /* Enemy.swift */; };
+		3383B2771CE501C6003504F8 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B2761CE501C6003504F8 /* Kimara.swift */; };
+		3383B2791CE502DC003504F8 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3383B2781CE502DC003504F8 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3383B2651CE456FF003504F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3383B2681CE456FF003504F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3383B26A1CE456FF003504F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3383B2701CE457EF003504F8 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3383B2721CE45935003504F8 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3383B2741CE50051003504F8 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		3383B2761CE501C6003504F8 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		3383B2781CE502DC003504F8 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				3383B25E1CE456FF003504F8 /* AppDelegate.swift */,
 				3383B2601CE456FF003504F8 /* ViewController.swift */,
+				3383B2701CE457EF003504F8 /* Character.swift */,
+				3383B2721CE45935003504F8 /* Player.swift */,
 				3383B2621CE456FF003504F8 /* Main.storyboard */,
 				3383B2651CE456FF003504F8 /* Assets.xcassets */,
 				3383B2671CE456FF003504F8 /* LaunchScreen.storyboard */,
 				3383B26A1CE456FF003504F8 /* Info.plist */,
+				3383B2741CE50051003504F8 /* Enemy.swift */,
+				3383B2761CE501C6003504F8 /* Kimara.swift */,
+				3383B2781CE502DC003504F8 /* DevilWizard.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3383B2731CE45935003504F8 /* Player.swift in Sources */,
+				3383B2751CE50051003504F8 /* Enemy.swift in Sources */,
+				3383B2791CE502DC003504F8 /* DevilWizard.swift in Sources */,
+				3383B2771CE501C6003504F8 /* Kimara.swift in Sources */,
+				3383B2711CE457EF003504F8 /* Character.swift in Sources */,
 				3383B2611CE456FF003504F8 /* ViewController.swift in Sources */,
 				3383B25F1CE456FF003504F8 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ellenshin.rpgoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ellenshin.rpgoop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
